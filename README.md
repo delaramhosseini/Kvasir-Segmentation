@@ -4,6 +4,15 @@ Implementing a U-Net architecture for image segmentation using TensorFlow and Ke
 # Introduction
 Image segmentation is a fundamental task in computer vision, aiming to partition images into meaningful regions. U-Net is a convolutional neural network architecture widely used for semantic segmentation tasks due to its ability to capture context information eﬀectively. In this report, we present the implementation of a U-Net model for image segmentation using TensorFlow and Keras. The objective is to achieve high segmentation accuracy, targeting a metric of 0.9748.
 
+# Dataset Details
+- **Name:** Kvasir-SEG
+- **Size:** 46.2 MB
+- **Content:** 1000 polyp images with corresponding ground truth masks
+- **Resolution:** Varies from 332x487 to 1920x1072 pixels
+- **Format:** JPEG images and JSON for bounding box coordinates
+- **Availability:** Open-access for research and edu
+- [**Link**](https://datasets.simula.no/kvasir-seg/)
+
 # Dataset Preparation
 We start by preparing the dataset for training and validation:
 - We load the images and corresponding masks from the dataset directory.
